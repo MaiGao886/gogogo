@@ -13,7 +13,7 @@ import java.util.Date;
 public class User implements Serializable {
 
     @Id
-    private String id;//主键ID，使用字符串类型（64）
+    private String tuId;//主键ID，使用字符串类型（64）
     private String username;//用户名，字符串（64）
     private String password;//密码，字符串（64）
     private String nickname;//昵称，字符串（64）
